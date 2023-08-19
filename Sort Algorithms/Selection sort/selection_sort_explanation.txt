@@ -1,0 +1,48 @@
+3 9 5 2 7 1 4 8 6   (Initial list)
+
+|                       |
+v                       v
+
+1 9 5 2 7 3 4 8 6   (Step 1: Swap 3 with 1)
+
+  |                     |
+  v                     v
+
+1 2 5 9 7 3 4 8 6   (Step 2: Swap 9 with 2)
+
+    |                   |
+    v                   v
+
+1 2 3 9 7 5 4 8 6   (Step 3: No swap)
+
+      |                 |
+      v                 v
+
+1 2 3 4 7 5 9 8 6   (Step 4: Swap 7 with 4)
+
+        |               |
+        v               v
+
+1 2 3 4 5 7 9 8 6   (Step 5: No swap)
+
+          |             |
+          v             v
+
+1 2 3 4 5 6 9 8 7   (Step 6: Swap 9 with 6)
+
+            |           |
+            v           v
+
+1 2 3 4 5 6 7 8 9   (Step 7: No swap)
+
+              |         |
+              v         v
+
+1 2 3 4 5 6 7 8 9   (Step 8: No swap)
+
+                |       |
+                v       v
+
+1 2 3 4 5 6 7 8 9   (Step 9: No swap)
+
+Sorted List: 1 2 3 4 5 6 7 8 9
